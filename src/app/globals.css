@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --font-clash-display: var(--font-clash-display);
+  --font-dm-sans: var(--font-dm-sans);
+  --font-open-sans: var(--font-open-sans);
+  --font-redhat-display: var(--font-redhat-display);
+  --font-manrope: var(--font-manrope);
+  --font-inter: var(--font-inter);
+  --color-col-1: #051139;
+  --color-col-2: #6a65ff;
+  --color-col-3: #151925;
+  --color-col-4: #e9ecf2;
+  --color-col-5: #55acee;
+  --color-col-6: #3b5998;
+  --color-col-7: #0976b4;
+}
+
+@layer base {
+  html,
+  body {
+    @apply bg-col-1 text-white;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
