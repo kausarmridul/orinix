@@ -1,10 +1,17 @@
+"use client";
 import Link from "next/link";
 import Container from "./Container";
 import Image from "next/image";
 import { assets } from "@/lib/assets";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
+import { useEffect, useState } from "react";
 
 const Footer = () => {
+  const [year, setYear] = useState(2026);
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
   return (
     <footer className="sm:pt-14.25 sm:pb-18.75 py-10">
       <Container>
@@ -55,7 +62,7 @@ const Footer = () => {
               </li>
             </ul>
             <p className="font-inter font-normal text-xs text-white/75 mt-16.5 max-lg:hidden">
-              &copy; {new Date().getFullYear()} Orinix Reserved
+              &copy; {year} Orinix Reserved
             </p>
           </div>
           <div className="lg:col-span-8 lg:pt-15.75 flex justify-between max-sm:flex-col max-sm:gap-8">
@@ -225,7 +232,7 @@ const Footer = () => {
         </div>
         <div>
           <p className="font-inter font-normal text-xs text-white/75 mt-10 text-center lg:hidden">
-            &copy; {new Date().getFullYear()} Orinix Reserved
+            &copy; {year} Orinix Reserved
           </p>
         </div>
       </Container>
