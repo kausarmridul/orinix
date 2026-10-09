@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <>
       <section
-        className={`${stickyNav ? "fixed top-0 bg-col-1 shadow-lg border-col-3" : "absolute top-7.5 border-transparent"} border-b py-5 transition-all duration-300 w-full z-50"`}
+        className={`${stickyNav ? "fixed top-0 bg-col-1 shadow-lg border-col-3" : "absolute top-7.5 border-transparent"} border-b-2 py-5 transition-all duration-300 w-full z-50`}
       >
         <Container>
           <div className="flex items-center gap-2 justify-between">

@@ -65,3 +65,27 @@ export const navLinks = [
     label: "Blog",
   },
 ];
+
+export const activityList = [
+  {
+    id: 1,
+    image: analysis_icon_1,
+    title: "Trusted and Acccurate",
+    content:
+      "Amet minim mollit non deserunt ullamco est sit dolor do amet sint.Velit officia consequat duis",
+  },
+  {
+    id: 2,
+    image: analysis_icon_2,
+    title: "Hired By Top Company",
+    content:
+      "Amet minim mollit non deserunt ullamco est sit dolor do amet sint.Velit officia consequat duis",
+  },
+  {
+    id: 3,
+    image: analysis_icon_3,
+    title: "Various Categories",
+    content:
+      "Amet minim mollit non deserunt ullamco est sit dolor do amet sint.Velit officia consequat duis ",
+  },
+];

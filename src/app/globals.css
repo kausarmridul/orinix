@@ -14,15 +14,23 @@
   --color-col-5: #55acee;
   --color-col-6: #3b5998;
   --color-col-7: #0976b4;
+  --color-col-8: #ebebeb;
 }
 
 @layer base {
   html,
   body {
-    @apply bg-col-1 text-white;
+    @apply bg-col-1 text-white scroll-smooth;
   }
 
   button {
     @apply cursor-pointer;
+  }
+}
+
+@layer utilities {
+  .outline-text {
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
   }
 }

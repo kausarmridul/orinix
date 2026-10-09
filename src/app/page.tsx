@@ -1,7 +1,13 @@
+import About from "@/components/About";
+import Activity from "@/components/Activity";
+import Hero from "@/components/Hero";
+
 export default function Home() {
   return (
-    <div className="h-125">
-      <h1></h1>
-    </div>
+    <>
+      <Hero />
+      <Activity />
+      <About />
+    </>
   );
 }
