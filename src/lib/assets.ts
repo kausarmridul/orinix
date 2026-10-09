@@ -89,3 +89,48 @@ export const activityList = [
       "Amet minim mollit non deserunt ullamco est sit dolor do amet sint.Velit officia consequat duis ",
   },
 ];
+
+export const aboutList = [
+  {
+    id: 1,
+    image: about_icon_1,
+    title: "Fully Responsive",
+    content:
+      "With lots of unique blocks, you can easily build a page without coding.",
+  },
+  {
+    id: 2,
+    image: about_icon_2,
+    title: "Multiple Layouts",
+    content:
+      "With lots of unique blocks, you can easily build a page without coding.",
+  },
+  {
+    id: 3,
+    image: about_icon_3,
+    title: "Faster Loading",
+    content:
+      "With lots of unique blocks, you can easily build a page without coding.",
+  },
+  {
+    id: 4,
+    image: about_icon_4,
+    title: "Super Support",
+    content:
+      "With lots of unique blocks, you can easily build a page without coding.",
+  },
+  {
+    id: 5,
+    image: about_icon_5,
+    title: "Rich Documentation",
+    content:
+      "With lots of unique blocks, you can easily build a page without coding.",
+  },
+  {
+    id: 6,
+    image: about_icon_6,
+    title: "Lifetime Updates",
+    content:
+      "With lots of unique blocks, you can easily build a page without coding.",
+  },
+];
