@@ -20,6 +20,12 @@
   --color-col-10: #ffd964;
   --color-col-11: #9d9d9d;
   --color-col-12: #515def;
+  --color-col-13: #808d9e;
+  --color-col-14: #f2f4fc;
+  --color-col-15: #62a5ff;
+  --color-col-16: #2a85ff;
+  --color-col-17: #ffd88d;
+  --color-col-18: #313131;
 }
 
 @layer base {

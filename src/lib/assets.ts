@@ -151,3 +151,27 @@ export const reviewList = [
     desc: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
   },
 ];
+
+export const pricingList = [
+  {
+    id: 1,
+    bgColor: false,
+    monthly: 50,
+    yearly: 30,
+    plan: "silver",
+  },
+  {
+    id: 2,
+    bgColor: true,
+    monthly: 100,
+    yearly: 80,
+    plan: "gold",
+  },
+  {
+    id: 3,
+    bgColor: false,
+    monthly: 150,
+    yearly: 120,
+    plan: "premium",
+  },
+];

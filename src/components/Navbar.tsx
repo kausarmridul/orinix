@@ -66,7 +66,10 @@ const Navbar = () => {
               <button className="sm:px-7 sm:py-3.5 px-5 py-2.5 transition-all duration-300 hover:-translate-y-0.5 bg-col-2 rounded-[10px] inline-flex items-center justify-center font-clash-display font-semibold text-base sm:text-lg">
                 Join The waitlist
               </button>
-              <button className="lg:hidden" onClick={() => setShowNav(true)}>
+              <button
+                className="lg:hidden"
+                onClick={() => setShowNav(!showNav)}
+              >
                 <FaBars className="text-3xl sm:text-4xl" />
               </button>
             </div>
