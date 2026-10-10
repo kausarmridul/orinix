@@ -51,7 +51,7 @@ export const navLinks = [
   },
   {
     id: 3,
-    url: "#useCases",
+    url: "#usecases",
     label: "Use Cases",
   },
   {

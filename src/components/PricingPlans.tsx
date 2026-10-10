@@ -7,7 +7,10 @@ import { IoCheckmark } from "react-icons/io5";
 const PricingPlans = () => {
   const [monthly, setMonthly] = useState(false);
   return (
-    <section className="lg:pb-55.75 lg:pt-25.25 py-25">
+    <section
+      className="lg:pb-55.75 scroll-mt-30 lg:pt-25.25 py-25"
+      id="pricing"
+    >
       <Container>
         <div className="text-center">
           <h3 className="font-clash-display font-semibold text-xl sm:text-[26px] md:text-[40px] lg:text-[60px] lg:leading-18.5 capitalize mb-2.5">

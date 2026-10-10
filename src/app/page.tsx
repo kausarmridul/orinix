@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Activity from "@/components/Activity";
+import Explore from "@/components/Explore";
 import Faq from "@/components/Faq";
 import Hero from "@/components/Hero";
 import PricingPlans from "@/components/PricingPlans";
@@ -16,6 +17,7 @@ export default function Home() {
       <Review />
       <PricingPlans />
       <Faq />
+      <Explore />
     </>
   );
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Useful = () => {
   return (
-    <section className="lg:pb-63.5 lg:pt-44.5 py-40">
+    <section className="lg:pb-63.5 scroll-mt-30 lg:pt-44.5 py-40" id="usecases">
       <Container>
         <div className="xl:w-6/12 mx-auto text-center">
           <h3 className="mb-22 font-clash-display font-semibold text-5xl md:text-6xl lg:text-[80px] lg:leading-[110%]">
