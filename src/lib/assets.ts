@@ -134,3 +134,20 @@ export const aboutList = [
       "With lots of unique blocks, you can easily build a page without coding.",
   },
 ];
+
+export const reviewList = [
+  {
+    id: 1,
+    image: people_review_1,
+    author: "Leslie Alexander",
+    role: "Community",
+    desc: "Circle is being used for my project, and the team has been very helpful. thanks, are there any new Tools you've tried this week?",
+  },
+  {
+    id: 2,
+    image: people_review_2,
+    author: "Dianne Russell",
+    role: "Community",
+    desc: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+  },
+];

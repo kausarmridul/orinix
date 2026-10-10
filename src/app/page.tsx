@@ -1,6 +1,8 @@
 import About from "@/components/About";
 import Activity from "@/components/Activity";
 import Hero from "@/components/Hero";
+import Review from "@/components/Review";
+import Useful from "@/components/Useful";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Hero />
       <Activity />
       <About />
+      <Useful />
+      <Review />
     </>
   );
 }

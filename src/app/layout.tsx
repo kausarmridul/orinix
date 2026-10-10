@@ -7,6 +7,7 @@ import {
   Red_Hat_Display,
   Manrope,
   Inter,
+  IBM_Plex_Sans,
 } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
@@ -21,6 +22,12 @@ const openFont = Open_Sans({
   variable: "--font-open-sans",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
+});
+
+const ibmSansFont = IBM_Plex_Sans({
+  variable: "--font-ibm-sans",
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 
 const redHatFont = Red_Hat_Display({
@@ -98,7 +105,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${poppinsFont.className} ${openFont.variable} ${dmFont.variable} ${clashDisplay.variable} ${redHatFont.variable} ${manropeFont.variable} ${interFont.variable} h-full antialiased`}
+      className={`${poppinsFont.className} ${ibmSansFont.variable} ${openFont.variable} ${dmFont.variable} ${clashDisplay.variable} ${redHatFont.variable} ${manropeFont.variable} ${interFont.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <Navbar />

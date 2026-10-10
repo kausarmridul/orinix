@@ -7,6 +7,7 @@
   --font-redhat-display: var(--font-redhat-display);
   --font-manrope: var(--font-manrope);
   --font-inter: var(--font-inter);
+  --font-ibm-sans: var(--font-ibm-sans);
   --color-col-1: #051139;
   --color-col-2: #6a65ff;
   --color-col-3: #151925;
@@ -16,6 +17,9 @@
   --color-col-7: #0976b4;
   --color-col-8: #ebebeb;
   --color-col-9: #0d1849;
+  --color-col-10: #ffd964;
+  --color-col-11: #9d9d9d;
+  --color-col-12: #515def;
 }
 
 @layer base {
