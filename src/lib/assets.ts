@@ -175,3 +175,30 @@ export const pricingList = [
     plan: "premium",
   },
 ];
+
+export const faqList = [
+  {
+    id: 1,
+    desc: "Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding. with Omega that converts more visitors than any website.",
+  },
+  {
+    id: 2,
+    desc: "Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding.",
+  },
+  {
+    id: 3,
+    desc: "Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding.",
+  },
+  {
+    id: 4,
+    desc: "Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding. with Omega that converts more visitors than any website.",
+  },
+  {
+    id: 5,
+    desc: "Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding.",
+  },
+  {
+    id: 6,
+    desc: "Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding.",
+  },
+];
