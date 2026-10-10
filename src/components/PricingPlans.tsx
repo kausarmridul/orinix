@@ -5,7 +5,7 @@ import { pricingList } from "@/lib/assets";
 import { IoCheckmark } from "react-icons/io5";
 
 const PricingPlans = () => {
-  const [monthly, setMonthly] = useState(false);
+  const [monthly, setMonthly] = useState(true);
   return (
     <section
       className="lg:pb-55.75 scroll-mt-30 lg:pt-25.25 py-25"
